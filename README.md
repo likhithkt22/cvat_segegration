@@ -20,7 +20,7 @@ For every frame in every assigned job:
 
 | Step | Condition | Result |
 |------|-----------|--------|
-| 1 | Annotation coverage is below the threshold (99.99%) | **Anomaly** (incomplete annotation) |
+| 1 | Annotation coverage is below the threshold (80%) | **Anomaly** (incomplete annotation) |
 | 2 | Coverage is complete **and** the `(job id, frame number)` is listed in the Excel file | **Anomaly** (Excel) |
 | 3 | Otherwise | **Completed** |
 
