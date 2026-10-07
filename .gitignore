@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Local output from the tool (adjust to your BACKUP_FOLDER)
+Frames/
+*.csv
+
+# Local data
+*.xlsx
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+.env
